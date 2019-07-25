@@ -1,0 +1,189 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/project2temp.css"/>
+	<!-- Jake's favicon -->
+	<link href="images/JakeIcon.ico" rel="icon" type="image/ico"/>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $(".WestRogers").click(function(event){
+        event.preventDefault();
+		$("#WR").removeClass("hidden");
+		$("#LP").addClass("hidden");
+		$("#WI").addClass("hidden");
+		$("#SK").addClass("hidden");
+		$("#NL").addClass("hidden");
+		
+    });
+    $(".LincolnPark").click(function(event){
+		event.preventDefault();
+        $("#WR").addClass("hidden");
+		$("#LP").removeClass("hidden");
+		$("#WI").addClass("hidden");
+		$("#SK").addClass("hidden");
+		$("#NL").addClass("hidden");
+    });
+	$(".Wilmette").click(function(event){
+		event.preventDefault();
+        $("#WR").addClass("hidden");
+		$("#LP").addClass("hidden");
+		$("#WI").removeClass("hidden");
+		$("#SK").addClass("hidden");
+		$("#NL").addClass("hidden");
+    });
+	$(".Skokie").click(function(event){
+		event.preventDefault();
+        $("#WR").addClass("hidden");
+		$("#LP").addClass("hidden");
+		$("#WI").addClass("hidden");
+		$("#SK").removeClass("hidden");
+		$("#NL").addClass("hidden");
+    });
+	$(".Niles").click(function(event){
+		event.preventDefault();
+        $("#WR").addClass("hidden");
+		$("#LP").addClass("hidden");
+		$("#WI").addClass("hidden");
+		$("#SK").addClass("hidden");
+		$("#NL").removeClass("hidden");
+    });
+});
+</script>
+
+<title>Our Locations</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+</head>
+
+<body>
+
+	<!-- Jake's header -->
+	<div id="header">	
+		<div id="logobox">
+			<a href="index.html"><img style="z-index:2;" width="100%" height="100%" src="images/JakesChickenLogo.png" alt="Red and Black Jake's Chicken Shack Logo"/></a>
+		</div>
+		
+		<ul>
+			<li><a href="menuPage.html">Menu</a></li>
+			<li><a href="locationsPage.html">Locations</a></li>
+			<li><a href="onlineOrderingPage.html#rewardsText">Online Ordering</a></li>
+			<li><a href="aboutUsPage.html">About Us</a></li>
+			<li><a href="franchisingPage.html">Franchising</a></li>
+		</ul>	
+	</div>
+
+	<!-- Jake's secondary banner -->
+	<div id="giftCard">
+		<img id="plzwork" style="z-index:0;" src="images/[homepage]giftCardImage.png" alt="picture of gift box with space for gift card link button" width="500px" height="90px"/>
+		
+		<div id="giftcardbutton">
+			<a href="onlineOrderingPage.html">Give <span class="subt">the</span> Gift <span class="subt">of</span> Gluttony</a>
+		</div>
+		
+		<div id="shareUs">
+		<p>Share Us!</p>
+		<a href="redirection.html"><img src="images/[homepage]facebooklogo.png" alt="facebook logo img that links back to template" height="40px" width="40px"/></a>
+		<a href="redirection.html"><img src="images/[homepage]twitterlogo.png" alt="twitter logo img that links back to template" height="40px" width="40px" /></a>
+		<a href="redirection.html"><img src="images/[homepage]instagramlogo.png" alt="instagram logo img that links back to template" height="40px" width="40px" /></a>
+		</div>
+	</div>
+	
+	<!-- Joe's body -->
+	<!-- Container for the body content. Allows easy floating. -->
+	<div id="bodycontainer">
+	
+		<!-- Featured item - text and image containers -->
+		<div id="WR" style="height:503px;">
+			<h1 style="font-size:28px;">Location and Hours</h1>
+			<p style="font-weight:lighter;line-height:80px;text-align:center;"><span style="font-size:24px;font-weight:bolder;text-decoration:underline;">West Rogers Park</span><br/><b>Phone:</b>(773) 583-4050<br/><b>Address:</b>5500 St.Louis Ave.<br/>Chicago, IL. 60625<br/><b>Hours:</b>10 AM - 10 PM</p>
+		</div>
+		<div class="hidden" id="LP" style="height:503px;">
+			<h1 style="font-size:28px;">Location and Hours</h1>
+			<p style="font-weight:lighter;line-height:80px;text-align:center;"><span style="font-size:24px;font-weight:bolder;text-decoration:underline;">Lincoln Park</span><br/><b>Phone:</b>(773) 583-4050<br/><b>Address:</b>5500 St.Louis Ave.<br/>Chicago, IL. 60625<br/><b>Hours:</b>10 AM - 10 PM</p>
+		</div>
+		<div class="hidden" id="WI" style="height:503px;">
+			<h1 style="font-size:28px;">Location and Hours</h1>
+			<p style="font-weight:lighter;line-height:80px;text-align:center;"><span style="font-size:24px;font-weight:bolder;text-decoration:underline;">Wilmette</span><br/><b>Phone:</b>(773) 583-4050<br/><b>Address:</b>5500 St.Louis Ave.<br/>Chicago, IL. 60625<br/><b>Hours:</b>10 AM - 10 PM</p>
+		</div>
+		<div class="hidden" id="SK" style="height:503px;">
+			<h1 style="font-size:28px;">Location and Hours</h1>
+			<p style="font-weight:lighter;line-height:80px;text-align:center;"><span style="font-size:24px;font-weight:bolder;text-decoration:underline;">Skokie</span><br/><b>Phone:</b>(773) 583-4050<br/><b>Address:</b>5500 St.Louis Ave.<br/>Chicago, IL. 60625<br/><b>Hours:</b>10 AM - 10 PM</p>
+		</div>
+		<div class="hidden" id="NL" style="height:503px;">
+			<h1 style="font-size:28px;">Location and Hours</h1>
+			<p style="font-weight:lighter;line-height:80px;text-align:center;"><span style="font-size:24px;font-weight:bolder;text-decoration:underline;">Niles</span><br/><b>Phone:</b>(773) 583-4050<br/><b>Address:</b>5500 St.Louis Ave.<br/>Chicago, IL. 60625<br/><b>Hours:</b>10 AM - 10 PM</p>
+		</div>
+		<div id="featuredimage" style="height:523px;width:700px;">
+			<!--Image map, done using JQuery and a lot of frustration-->
+			<img src="images/[locations]map.png" alt="image of Chicago map" height="523px;" width="700px;" usemap="#Map"/>
+				<map name="Map" id="Map">
+					<area class="WestRogers" alt="West Rogers Park Location" title="WestRogers" href="#" coords="445,150,495,215" shape="rect"/>
+					<area class="LincolnPark" alt="Lincoln Park Location" title="LincolnPark" href="#" coords="535,320,585,385" shape="rect"/>
+					<area class="Wilmette" alt="Wilmette Location" title="Wilmette" href="#" coords="400,25,450,90" shape="rect"/>
+					<area class="Skokie" alt="Skokie Location" title="Skokie" href="#" coords="350,90,400,155" shape="rect"/>
+					<area class="Niles" alt="Niles Location" title="Niles" href="#" coords="267,130,317,195" shape="rect"/>				
+				</map>
+		</div>	
+	</div>
+	
+	<!-- Joe's Footer -->
+	<div id="footer" style="padding-top:20px;">
+		
+		<!-- Individual divs for each footer nav list to allow for easy positioning. -->
+		<div id="footerbottombox">
+			<div class="footerlinkdivs">
+				<ul class="footerlinks">
+					<li class="footerlinks"><a href="menuPage.html">Menu</a></li>
+					<li class="footerlinks"><a href="chickenPage.html">Chicken</a></li>
+					<li class="footerlinks"><a href="sidesPage.html">Sides</a></li>
+					<li class="footerlinks"><a href="mealsPage.html">Meals</a></li>
+					<li class="footerlinks"><a href="dessertsPage.html">Desserts</a></li>
+				</ul>
+			</div>
+			<div class="footerlinkdivs" style="margin-left:30px;">
+				<ul class="footerlinks">
+					<li class="footerlinks"><a href="onlineOrderingPage.html#rewardsText">Order Online</a></li>
+					<li class="footerlinks"><a href="cateringPage.html">Catering</a></li>
+					<li class="footerlinks"><a href="franchisingPage.html">Franchising</a></li>
+				</ul>
+			</div>
+			<div class="footerlinkdivs" style="margin-left:40px;">
+				<ul class="footerlinks">
+					<li class="footerlinks"><a href="rewardsPage.html">Rewards</a></li>
+					<li class="footerlinks"><a href="rewardsPage.html#anchor">Newsletter</a></li>
+					<li class="footerlinks"><a href="onlineOrderingPage.html">Gift Card</a></li>
+				</ul>
+			</div>
+			<div class="footerlinkdivs" style="margin-left:25px;">
+				<ul class="footerlinks">
+					<li class="footerlinks"><a href="aboutUsPage.html">About Us</a></li>
+					<li class="footerlinks"><a href="locationsPage.html"><span class="currentlinkfooter">Locations</span></a></li>
+				</ul>
+			</div>
+			<div class="footerlinkdivs" style="margin-left:15px;">
+				<ul class="footerlinks">
+					<li class="footerlinks"><a href="index.html">Home</a></li>
+					<li class="footerlinks"><a href="sitemap.html">Site Map</a></li>
+					<li class="footerlinks"><a href="bibPage.html">Bibliography</a></li>
+				</ul>
+			</div>
+			
+			<!-- Contact info -->
+			<p id="contact" style="color:#FFB54C;margin-top:15px;">Interested in contacting us? Send an e-mail to <a href="mailto:customerservice@jakeschicken.com" style="color:#f1f1f1;">customerservice@jakeschicken</a></p>
+			
+		</div>
+	</div>
+
+
+ <p style="text-align:center;">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+</body>
+
+</html>
